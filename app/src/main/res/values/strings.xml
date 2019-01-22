@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Movie shows</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_movie_details">MovieDetails</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+
+    <string name="overview">OverView</string>
+    <string name="releasedate">ReleaseDate</string>
+    <string name="language">Language</string>
+    <string name="movietitle">Movietitle</string>
+    <string name="textview">TextView</string>
+    <string name="tagline">Tagline</string>
+</resources>

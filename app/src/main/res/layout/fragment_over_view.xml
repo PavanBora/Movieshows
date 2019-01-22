@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OverView"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/o"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Overview"
+        />
+
+    <TextView
+        android:id="@+id/overView"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/o"
+         />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/overView"
+        android:text="Cast"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView8"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView30"
+        >
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:id="@+id/textView31"
+        android:text="Crew"
+        android:textSize="20sp"
+        android:layout_below="@+id/recyclerView8"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView9"
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/textView31"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</ScrollView>

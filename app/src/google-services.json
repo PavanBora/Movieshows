@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "502799153213",
+    "firebase_url": "https://movie-shows-82ad7.firebaseio.com",
+    "project_id": "movie-shows-82ad7",
+    "storage_bucket": "movie-shows-82ad7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502799153213:android:a8129c06a1110b5b",
+        "android_client_info": {
+          "package_name": "com.example.pavanbora.movieshows"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502799153213-ptmjg9b1v1in06f53gpkh5ct0pi1dq09.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pavanbora.movieshows",
+            "certificate_hash": "01241c850b58d665d416794131a128a648054817"
+          }
+        },
+        {
+          "client_id": "502799153213-e8e3cs5cs98bv3p7fqcbbp15h4s13a5b.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "502799153213-e8e3cs5cs98bv3p7fqcbbp15h4s13a5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAulim0UHILXVIZ_7AVpMQBCQM_mpsAWHk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502799153213-e8e3cs5cs98bv3p7fqcbbp15h4s13a5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

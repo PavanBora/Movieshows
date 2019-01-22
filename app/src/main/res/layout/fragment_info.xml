@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="16sp"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tagline"
+        android:textSize="16sp"
+        android:layout_below="@+id/t1"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Language"
+        android:textSize="16sp"
+        android:layout_below="@+id/t2"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"
+         />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release date"
+        android:textSize="16sp"
+        android:layout_below="@+id/t3"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Title"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:layout_below="@+id/t4"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Runtime"
+        android:layout_below="@+id/textView6"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"
+         />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Revenue"
+        android:layout_below="@+id/textView8"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"
+         />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popularity"
+        android:layout_below="@+id/textView9"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/t2"
+        android:layout_below="@+id/textView12"
+        android:text="Tagline"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/t4"
+        android:text="Release Date"
+        android:layout_below="@+id/textView15"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:text="Language"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:text="Status"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:text="Runtime"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:text="Revenue"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView18"
+        android:text="Popularity"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView19"        android:text="Budget"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="budget"
+        android:layout_below="@+id/textView10"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView20"
+        android:text="VoteCount"
+        android:textStyle="bold"
+        android:paddingTop="15dp"/>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="votecount"
+        android:layout_below="@+id/textView21"
+        android:layout_marginLeft="150dp"
+        android:paddingTop="15dp"
+         />
+</RelativeLayout>
+
+</ScrollView>
+
